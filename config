@@ -35,6 +35,7 @@ exec --no-startup-id nm-applet
 
 exec_always feh --bg-scale /home/vlad/Pictures/wallpaper.jpg
 exec_always barrier
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 title_align center
 hide_edge_borders both
